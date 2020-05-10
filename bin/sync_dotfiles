@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cp ~/{.bash_profile,.bash_logout,.bashrc,.gitconfig,.profile,.ssh,.vimrc} /mnt/c/Users/kanug/Box\ Sync/Code/Dotfiles/ -u -r
+cp ~/{.bash_profile,.bash_logout,.bashrc,.bash_aliases,.gitconfig,.profile,.ssh,.vimrc} /mnt/c/Users/kanug/Box\ Sync/Code/Dotfiles/ -u -r
 cd /mnt/c/Users/kanug/Box\ Sync/Code/Dotfiles/
 git status
 git add .
