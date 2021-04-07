@@ -4,5 +4,5 @@ cp ~/{.bash_profile,.bash_logout,.bashrc,.bash_aliases,.gitconfig,.profile,.ssh,
 cd /mnt/c/Users/kanug/Box\ Sync/Code/Dotfiles/
 git status
 git add .
-git commit -m "updated dotfiles"
+git commit -m "Update dotfiles"
 git push
