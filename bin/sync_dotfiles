@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cp ~/{.bash_profile,.bash_logout,.bashrc,.bash_aliases,.gitconfig,.profile,.ssh,.vimrc} /mnt/c/Users/kanug/Box\ Sync/Code/Dotfiles/ -u -r
-cd /mnt/c/Users/kanug/Box\ Sync/Code/Dotfiles/
+cp ~/{.bash_profile,.bash_logout,.bashrc,.bash_aliases,.gitconfig,.profile,.ssh,.vimrc} "/mnt/c/Users/kanug/My Drive/Code/Dotfiles/" -u -r
+cd "/mnt/c/Users/kanug/My Drive/Code/Dotfiles/"
 git status
 git add .
 git commit -m "Update dotfiles"
